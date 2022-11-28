@@ -80,11 +80,12 @@ export default function Home() {
               </h1>
               <h2 className="md:w-8/12 py-4 text-center md:text-left md:py-8 text-gray-700 text-lg lg:text-2xl">Encontro os melhores preços pesquisando produtos pelo código de barras ou nome</h2>
               <div className="w-full flex justify-center md:block">
-                <button className="hover:opacity-90 bg-[#0FB7FF] py-3 px-10 lg:py-7 lg:px-20 rounded-2xl text-white text-lg md:text-lg f-f-p">Baixe Agora</button>
+                <a href="https://play.google.com/store/apps/details?id=com.compareprices">
+                  <button className="hover:opacity-90 bg-[#0FB7FF] py-3 px-10 lg:py-7 lg:px-20 rounded-2xl text-white text-lg md:text-lg f-f-p">Baixe Agora</button>
+                </a>
               </div>
             </div>
             <div className="w-1/2 sm:w-2/5 h-64 md:h-auto m-auto flex items-center overflow-hidden">
-              {/* <img class="h-full" src="https://cdn.tuk.dev/assets/components/111220/Hero4/Rectangle.png" alt="Device"> */}
               <Image
                 className="md:absolute md:w-2/5 md:-ml-28"
                 width={400}
